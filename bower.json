@@ -1,0 +1,35 @@
+{
+  "name": "sidekit-ui-core",
+  "authors": [
+    "2amigOS! <hola@2amigos.us>"
+  ],
+  "description": "SideKit Ui core file",
+  "main": "dist/sidekit-ui-core.js",
+  "keywords": [
+    "html5",
+    "javascript",
+    "jquery",
+    "ui",
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sidekit-ui/sidekit-core",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "src",
+    "spec",
+    "bower.json",
+    "gulpfile.js",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "README.md"
+  ],
+  "dependencies": {
+    "mustache.js": "mustache#^2.2.1",
+    "jquery": "^3.1.0"
+  }
+}
