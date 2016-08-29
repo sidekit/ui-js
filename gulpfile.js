@@ -6,11 +6,18 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var jshint = require('gulp-jshint');
 var rename = require('gulp-rename');
+var docco = require('gulp-docco');
 
 gulp.task('jshint', function () {
     return gulp.src('./src/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
+});
+
+gulp.task('docco', function(){
+    return gulp.src('.src/*.js')
+    .pipe(docco())
+    .pipe(gulp.dest('docs'));
 });
 
 gulp.task('build', function () {
