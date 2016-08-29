@@ -12,7 +12,7 @@
     "ui",
     "framework"
   ],
-  "license": "MIT",
+  "license": "BSD",
   "homepage": "https://github.com/sidekit-ui/sidekit-core",
   "private": true,
   "ignore": [

@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "2amigOS! <hola@2amigos.us>",
-  "license": "MIT",
+  "license": "BSD",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.1",
